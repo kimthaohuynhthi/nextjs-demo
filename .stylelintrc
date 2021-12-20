@@ -1,5 +1,5 @@
 {
-  "extends": ["stylelint-config-standard"],
+  "extends": ["stylelint-config-standard","stylelint-config-standard-scss"],
   "plugins": ["stylelint-prettier"],
   "rules": {
     "alpha-value-notation": null,
@@ -10,6 +10,9 @@
     "declaration-block-no-redundant-longhand-properties": null,
     "font-family-name-quotes": "always-where-required",
     "prettier/prettier": true,
-    "shorthand-property-no-redundant-values": true
+    "shorthand-property-no-redundant-values": true,
+    "selector-class-pattern": null,
+    "keyframes-name-pattern": null,
+    "scss/percent-placeholder-pattern": null
   }
 }

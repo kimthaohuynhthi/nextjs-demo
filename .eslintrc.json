@@ -21,5 +21,18 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/function-component-definition": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-curly-brace-presence": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "react/destructuring-assignment": "off",
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "no-unreachable":"off",
+        "no-restricted-exports": "off",
+        "no-undef": "off"
     }
 }
