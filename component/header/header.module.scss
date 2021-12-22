@@ -1,0 +1,30 @@
+.menuBar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  height: 60px;
+  max-width: 100%;
+  padding: 20px 40px;
+  background-color: #741111;
+
+  &.light {
+    background-color: #2e1818;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menuBar {
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+  }
+
+  .title {
+    margin: auto;
+  }
+
+  .name {
+    display: none !important;
+  }
+}
